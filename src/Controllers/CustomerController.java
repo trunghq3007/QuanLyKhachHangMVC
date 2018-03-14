@@ -4,20 +4,20 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
-import Models.CustomerModel;
 import ValueObjects.Customer;
+import model.impliment.CustomerModel;
 
 public class CustomerController extends BaseController {
 	private CustomerModel mCustomerModel;
 
 	public CustomerController(Connection oConnection) {
 		super(oConnection);
-		mCustomerModel = new CustomerModel(oConnection);
+		mCustomerModel = null;
 	}
 
 	@Override
 	public List<Customer> GetAll() throws SQLException {
-		return mCustomerModel.GetElements();
+		return null;
 	}
 
 	@Override

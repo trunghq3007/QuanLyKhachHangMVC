@@ -1,0 +1,12 @@
+Viết chương trình quản lí khách hàng, gồm những chức năng sau: 
+- Hiển thị thông tin tất cả khách hàng có trong hệ thống 
+- Nhập mới một khách hàng 
+- Sửa thông tin khách hàng
+ - Xóa thông tin khách hàng 
+  Tất cả các chức năng phải validate dữ liệu input Thông tin mỗi khách hàng gồm: 
+  mã khách hàng, họ tên, email, phone, address 
+  Danh sách các khách hàng được lưu trữu thông qua array hoặc list 
+  Chương trình dạng console, 
+  các chức năng của chương trình được chọn qua màn hình console thông qua các giá trị nhập vào từ bàn phím,
+ xây dựng theo mô hình MVC, 
+ database: mockup (giả lập)

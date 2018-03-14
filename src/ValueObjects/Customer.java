@@ -1,41 +1,57 @@
 package ValueObjects;
 
+/**
+ * 
+ * @description: Entity khách h
+ * @author: Admin
+ * @time: 7:48:21 PM
+ * @date: Mar 14, 2018
+ */
 public class Customer {
-	//Instance Variable
-	private int RollNo;
-	private String FullName;
-	private String Email;
-	private String Mobile;
-	private String Address;
-	
+	// Instance Variable
+	private int rollNo;
+	private String fullName;
+	private String email;
+	private String mobile;
+	private String address;
+
 	public int getRollNo() {
-		return RollNo;
+		return rollNo;
 	}
+
 	public void setRollNo(int rollNo) {
-		RollNo = rollNo;
+		this.rollNo = rollNo;
 	}
+
 	public String getFullName() {
-		return FullName;
+		return fullName;
 	}
+
 	public void setFullName(String fullName) {
-		FullName = fullName;
+		this.fullName = fullName;
 	}
+
 	public String getEmail() {
-		return Email;
+		return email;
 	}
+
 	public void setEmail(String email) {
-		Email = email;
+		this.email = email;
 	}
+
 	public String getMobile() {
-		return Mobile;
+		return mobile;
 	}
+
 	public void setMobile(String mobile) {
-		Mobile = mobile;
+		this.mobile = mobile;
 	}
+
 	public String getAddress() {
-		return Address;
+		return address;
 	}
+
 	public void setAddress(String address) {
-		Address = address;
-	}	
+		this.address = address;
+	}
 }
